@@ -1,0 +1,13 @@
+<VirtualNetworkSite name="TestVNet" Location="Central US">
+  <AddressSpace>
+    <AddressPrefix>192.168.0.0/16</AddressPrefix>
+  </AddressSpace>
+  <Subnets>
+    <Subnet name="FrontEnd">
+      <AddressPrefix>192.168.1.0/24</AddressPrefix>
+    </Subnet>
+    <Subnet name="BackEnd">
+      <AddressPrefix>192.168.2.0/24</AddressPrefix>
+    </Subnet>
+  </Subnets>
+</VirtualNetworkSite>
